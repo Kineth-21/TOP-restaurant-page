@@ -8,18 +8,24 @@
 }
 
 body{
+    background-image: url(images/jose-antonio-gallego-vazquez-MTw703lVy2s-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFFDD0;
+    background-color: #333333;
 }
 
 #heading{
     /* border: 1px solid blue; */
-    color: #B22222;
+    color: #FFD700;
     padding: 10px;
+    font-weight: 700;
 }
 
 .headerContainer{
@@ -38,22 +44,20 @@ body{
     height: 50px;
     font-size: 1.5rem;
     border: none;
-    border-bottom: 3px solid #4B3621;
+    border-bottom: 3px solid #FFD700;
     background-color: transparent;
-    color: #6B8E23;
+    color: #FFD700;
+    font-weight: 700;
 }
 
 #navBar > button:hover{
-    border-bottom: 3px solid #DAA520;
+    border-bottom: 3px solid #dbbb04;
     cursor: pointer;
+    color: #dbbb04;
 }
 
 #content {
-    background-image: url(images/wengang-zhai-8TV_eAmrMXQ-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    
     width: 100%;
     height: 100%;
 }
