@@ -58,8 +58,10 @@ body{
 
 #content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .homeContent{
@@ -70,4 +72,20 @@ body{
     text-align: center;
     color: #dbbb04;
     font-size: 1.5rem;
+}
+
+.dishContainer{
+    background-color: #3333338f;
+    font-size: 1.5rem;
+    color: #dbbb04;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: clamp(250px, 350px, 500px);
+    gap: 20px;
+}
+
+.dishImg{
+    width: clamp(100px, 200px, 400px);
+    aspect-ratio: 1/1;
 }
