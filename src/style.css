@@ -89,3 +89,12 @@ body{
     width: clamp(100px, 200px, 400px);
     aspect-ratio: 1/1;
 }
+
+.aboutContent{
+    background-color: #33333373;
+    font-size: 1.5rem;
+    color: #dbbb04;
+    margin-top: 20px;
+    width: clamp(300px, 600px, 50%);
+    padding: 20px;
+}

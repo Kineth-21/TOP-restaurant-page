@@ -1,6 +1,7 @@
 import './style.css';
 import {home} from './home.js';
 import {menu} from './menu.js';
+import {about} from './about.js'
 // import test from "./images/chicken_feet.jpg"
 
 // console.log("You've been served!");
@@ -19,3 +20,5 @@ homeBtn.addEventListener("click", home);
 const menuBtn = document.querySelector("#menu");
 menuBtn.addEventListener("click", menu);
 
+const aboutBtn = document.querySelector("#about");
+aboutBtn.addEventListener("click", about);
