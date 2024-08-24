@@ -57,7 +57,17 @@ body{
 }
 
 #content {
-    
-    width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent{
+    margin-top: 20px;
+    width: clamp(200px, 600px, 50%);
+    background-color: #33333373;
+    padding: 20px;
+    text-align: center;
+    color: #dbbb04;
+    font-size: 1.5rem;
 }
